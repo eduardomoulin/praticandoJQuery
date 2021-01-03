@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Praticando Jquery</title>
+</head>
+<body>
+
+    
+    <header>
+
+        <div id="logo"><img src="./assets/images/logo-jquery.png" alt=""></div>
+       
+
+    </header>
+
+    <!-- <div class="nav">
+        <ul class="nav-items">
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </div> -->
+
+    
+
+    <main>
+        <h1 class="txt">Bem vindo ao site</h1>
+
+        <p class="txt">Esse texto é apenas para "encher linguiça", o site foi criado com intuito de praticar JQuery.</p>
+
+        <p class="txt">O Botão abaixo habilitará o Modo Dark no site, mudando o esquema de cores completamente</p>
+
+        <input type="button" value="Ativar/Desativar o Dark Mode" class="btns" onclick="mudarTema()">
+
+        <h1 class="txt">Agora vamos transformar o texto!</h1>
+
+        <input class="btns" type="button" value="Tudo maiusculo" onclick="maiusculo()">
+
+        <input class="btns" type="button" value="Tudo minusculo" onclick="minusculo()">
+
+        <input class="btns" type="button" value="Primeira letra maiuscula" onclick="PrimeiraMaiuscula()">
+
+        <input class="btns" type="button" value="Voltar ao padrão" onclick="resetar()">
+
+        <h1 class="txt">Agora vamos sumir com o texto!</h1>
+
+        <input class="btns" type="button" value="Desapareçam (ou apareçam), titulos!" onclick="sumirH1()">
+
+        <input class="btns" type="button" value="Desapareçam (ou apareçam), paragráfos!" onclick="sumirP()">
+
+
+    </main>
+
+
+    
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
